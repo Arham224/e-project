@@ -1,0 +1,92 @@
+.container{
+    width: 1000px!important;
+}
+p{
+    font-size: 14px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-control{
+    height: 36px;
+    background:#fff ;
+    color: rgba(0,0,0,0,8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none!important;
+    border: 1px solid rgba(0,0,0,0,8);
+}
+.bi{
+    font-size: 40px;
+}
+
+.bannerbg{
+    background-image: url(pexels-max-fischer-5212682.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    opacity:0.9;
+}
+.navopacity{
+    background-color: rgb(34, 77, 194);
+}
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fontS{
+    font-size: 72px;
+
+}
+.fontSu
+{
+    font-size: 60px;
+}
+.horiz{
+    width: 150px;
+    color: blue;
+    height: 5px;
+}
+.bgco{
+    background-color: rgb(34, 77, 194);
+}
+.heigh{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+a:hover{
+    color:rgb(34, 77, 194);
+}
+i{
+    padding: 5px;
+}
+.grow {
+    transition: 1s ease;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.shrink{
+transition: 1s ease;
+}
+.shrink:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+.fa-solid fa-minus line
+{
+    width: 100px;
+}
+.justif{
+    text-align:justify;
+}

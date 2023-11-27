@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        /* Base styles */
+        .containerz {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Responsive styles */
+        @media (min-width: 768px) {
+            .about-section {
+                display: flex;
+                align-items: center;
+            }
+            .texts {
+                flex: 1;
+                padding: 20px;
+            }
+            .images {
+                flex: 1;
+            }
+        }
+        /* Adjustments for smaller screens */
+        @media (max-width: 767px) {
+            .about-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .texts {
+                order: 2;
+            }
+            .images {
+                order: 1;
+                margin-bottom: 20px;
+            }
+        }
+        .imgs {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="about-section">
+            <div class="text">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis justo nec odio feugiat condimentum. Donec et risus eu justo commodo fermentum in vel urna. Vestibulum fringilla tortor a velit fringilla, at mattis lorem tristique.</p>
+                </div>
+    
+            <div class="image">
+                <img src="image5.jpg" alt="Team Photo">
+            </div>
+           
+       </div>     
+    </div>
+</body>
+</html>
